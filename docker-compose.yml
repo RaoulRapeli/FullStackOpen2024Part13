@@ -1,0 +1,8 @@
+services:
+  mongo:
+    image: postgres
+    ports:
+     - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    container_name: Part13-postgres-db
